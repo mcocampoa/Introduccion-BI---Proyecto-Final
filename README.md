@@ -67,7 +67,7 @@ dsn = "localhost:1521/XEPDB1"
 
 El Diagrama Entidad-Relación (ER) normalizado (3FN) con la especificación de entidades, cardinalidades y llaves se encuentra disponible en:
 
-**[Ver Diagrama ER](./TrabajoFinal/DiagramasintDtulo.drawio.png)**
+** [**Ver Diagrama MODA.drawio.png**](./Trabajo%20Final/Diagrama%20MODA.drawio.png)
 
 ---
 
