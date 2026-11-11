@@ -53,13 +53,11 @@ dsn = "tu_dsn_o_servicio"
 
 ### Ejecución Local
 
-1. Abre la terminal en el proyecto y ejecuta el siguiente comando desde el directorio raíz:
+Abre la terminal en el proyecto y ejecuta el siguiente comando desde el directorio raíz:
 
    ```bash
    streamlit run "Trabajo Final/app_moda.py"
    ```
-
-2. La interfaz gráfica se abrirá automáticamente en tu navegador web predeterminado en la dirección local `http://localhost:8501`.
 
 ---
 
