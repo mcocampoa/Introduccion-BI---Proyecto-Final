@@ -27,7 +27,7 @@ Para configurar la base de datos en Oracle, se deben ejecutar los scripts ubicad
 Por seguridad, las credenciales de la base de datos Oracle están desvinculadas del código fuente y se gestionan mediante el sistema de secretos de Streamlit.
 
 Para ejecutar el proyecto en local:
-1. Crear la carpeta `.streamlit` dentro de `Trabajo Final/`[cite: 1].
+1. Crear la carpeta `.streamlit` dentro de `Trabajo Final/`.
 2. Crear el archivo `secrets.toml` en `Trabajo Final/.streamlit/secrets.toml` con la siguiente estructura:
 
 toml
@@ -38,7 +38,7 @@ dsn = "tu_cadena_conexion_o_dsn"
 
 bash
 streamlit run "Trabajo Final/app_moda.py"
-La interfaz gráfica se abrirá automáticamente en tu navegador web en la dirección `http://localhost:8501`[cite: 1].
+La interfaz gráfica se abrirá automáticamente en tu navegador web en la dirección `http://localhost:8501`.
 
 ---
 
@@ -51,9 +51,10 @@ El Diagrama Entidad-Relación (ER) normalizado (3FN) con la especificación de e
 
 ## Documentación Adicional
 
-* `Tienda de Moda Circular .docx`: Incluye la descripción del negocio y la justificación del modelo relacional[cite: 1].
+* `Tienda de Moda Circular .docx`: Incluye la descripción del negocio y la justificación del modelo relacional.
 
 ---
 
 ## Integrantes
-* Catalina Ocampo A.
+* Maria Catalina Ocampo
+* Maria Fernanda Lara 
