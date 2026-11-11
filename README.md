@@ -27,26 +27,25 @@ Para configurar la base de datos en Oracle, se deben ejecutar los scripts ubicad
 
 ## Configuración de Credenciales (`secrets.toml`)
 
-Por motivos de seguridad y cumpliendo con las buenas prácticas de desarrollo, las credenciales de la base de datos Oracle **no se incluyen en el repositorio público** para evitar exponer datos sensibles.
+Por motivos de seguridad, las credenciales de acceso a la base de datos Oracle no se suben al repositorio público. 
 
-Para ejecutar la aplicación localmente, debes crear manualmente el archivo de configuración siguiendo estos pasos:
+Si ejecutas el proyecto localmente, debes crear el archivo de credenciales de la siguiente manera:
 
-1. Crea una carpeta llamada `.streamlit` dentro de la carpeta `Trabajo Final/`.
-2. Dentro de la carpeta `.streamlit`, crea un archivo llamado `secrets.toml`.
-3. Copia la siguiente estructura en `secrets.toml` y reemplaza los valores según tu entorno de Oracle:
+### Ubicación exacta del archivo:
+`Trabajo Final/.streamlit/secrets.toml`
+
+### Pasos para crearlo desde PyCharm:
+1. Abre el proyecto en **PyCharm** y ve al panel izquierdo (explorador de archivos).
+2. Haz clic derecho sobre la carpeta **`Trabajo Final`** > **New** > **Directory** y ponle de nombre **`.streamlit`** (con el punto al inicio).
+3. Haz clic derecho sobre la carpeta recién creada `.streamlit` > **New** > **File** y ponle de nombre **`secrets.toml`**.
+4. Abre el archivo `secrets.toml` y pega el siguiente código, reemplazando los campos con las credenciales de tu base de datos Oracle:
 
 ```toml
 [oracle]
 user = "tu_usuario_oracle"
-password = "tu_contraseña_oracle"
-
-# Si usas Oracle local/servidor directo, usa la estructura "host:puerto/servicio":
-dsn = "localhost:1521/XEPDB1" 
-
-# Si usas Oracle Cloud (Autonomous DB / Wallet), coloca el nombre de servicio TNS:
-# dsn = "tiendademoda_high"
-```
-
+password = "tu_password_oracle"
+# Si es local: "localhost:1521/XEPDB1" | Si es Oracle Cloud: el nombre del servicio TNS (ej: "tienda_high")
+dsn = "tu_dsn_o_servicio"
 ---
 
 ## Instrucciones para Ejecutar la App
