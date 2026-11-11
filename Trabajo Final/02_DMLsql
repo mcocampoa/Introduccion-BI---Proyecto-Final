@@ -1,0 +1,115 @@
+-- ---------------------- DIMENSIÓN CLIENTE ----------------------
+-- ---------------------- DIMENSIÓN CLIENTE (30 CLIENTES) ----------------------
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (11, 'Manuela Álvarez Castro', 'Calle 12 Sur # 18-30', 'Medellín');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (12, 'Juan Pablo Ospina Ruiz', 'Carrera 48 # 25-10', 'Envigado');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (13, 'Mariana Cardona López', 'Calle 30A # 65-18', 'Medellín');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (14, 'Carlos Andrés Marín', 'Avenida Las Vegas # 43-05', 'Sabaneta');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (15, 'Gabriela Bedoya Cano', 'Carrera 80 # 32-45', 'Medellín');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (16, 'Esteban Gaviria Santos', 'Calle 53 # 45-20', 'Medellín');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (17, 'Lucía Fernández Pérez', 'Carrera 39 # 10-50', 'Medellín');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (18, 'Nicolás Herrera Duque', 'Diagonal 31 # 36 Sur-12', 'Envigado');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (19, 'Juliana Vélez Arango', 'Calle 70 # 52-90', 'Medellín');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (20, 'Samuel Quintero Gil', 'Carrera 65 # 14-80', 'Itagüí');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (21, 'Valeria Muñoz Villegas', 'Calle 4 Sur # 25-15', 'Medellín');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (22, 'Tomas Agudelo Montoya', 'Carrera 70 # 45E-12', 'Medellín');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (23, 'Salomé Castaño Mesa', 'Calle 38 Sur # 43A-50', 'Envigado');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (24, 'Jerónimo Londoño Serna', 'Avenida Nutibara # 68-12', 'Medellín');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (25, 'Melissa Salazar Orozco', 'Carrera 43 # 50-22', 'Sabaneta');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (26, 'Emanuel Ortiz Roldán', 'Calle 10A # 36-40', 'Medellín');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (27, 'Verónica Henao Galeano', 'Carrera 27 # 2 Sur-18', 'Medellín');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (28, 'Felipe Bustamante Tamayo', 'Calle 48 Sur # 43-10', 'Envigado');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (29, 'Paulina Estrada Rendón', 'Carrera 55 # 72A-30', 'Itagüí');
+INSERT INTO dato_cliente (c_id_cliente, c_nombre_cliente, c_direccion_envio, c_ciudad) VALUES (30, 'Simón Chavarriaga Soto', 'Calle 11B # 43B-15', 'Medellín');
+-- ---------------------- DIMENSIÓN ITEM / PRENDA ----------------------
+INSERT INTO dato_item (i_id_item, i_descripcion_pieza, i_estado_conservacion, i_material_principal) VALUES (101, 'Chaqueta Denim Over-sized 90s Vintage', 'Buen estado', 'Mezclilla');
+INSERT INTO dato_item (i_id_item, i_descripcion_pieza, i_estado_conservacion, i_material_principal) VALUES (102, 'Blusa de Seda Natural Estampado Floral', 'Casi Nuevo', 'Seda');
+INSERT INTO dato_item (i_id_item, i_descripcion_pieza, i_estado_conservacion, i_material_principal) VALUES (103, 'Abrigo Largo Classic Cut en Cuero Sintético', 'Buen estado', 'Cuero');
+INSERT INTO dato_item (i_id_item, i_descripcion_pieza, i_estado_conservacion, i_material_principal) VALUES (104, 'Pantalón Lino Blanco Pretina Alta', 'Casi Nuevo', 'Lino');
+INSERT INTO dato_item (i_id_item, i_descripcion_pieza, i_estado_conservacion, i_material_principal) VALUES (105, 'Camisa Algodón Rayas Retro Style', 'Con desgaste', 'Algodón');
+INSERT INTO dato_item (i_id_item, i_descripcion_pieza, i_estado_conservacion, i_material_principal) VALUES (106, 'Vestido Midi Tejido Años 80', 'Buen estado', 'Algodón');
+INSERT INTO dato_item (i_id_item, i_descripcion_pieza, i_estado_conservacion, i_material_principal) VALUES (107, 'Falda Plisada Vintage Satín', 'Casi Nuevo', 'Seda');
+INSERT INTO dato_item (i_id_item, i_descripcion_pieza, i_estado_conservacion, i_material_principal) VALUES (108, 'Chaqueta Cuero Moto Clásica', 'Con desgaste', 'Cuero');
+INSERT INTO dato_item (i_id_item, i_descripcion_pieza, i_estado_conservacion, i_material_principal) VALUES (109, 'Overol Denim Vintage Casual Fit', 'Buen estado', 'Mezclilla');
+INSERT INTO dato_item (i_id_item, i_descripcion_pieza, i_estado_conservacion, i_material_principal) VALUES (110, 'Chaleco Lino Beige Botones Madera', 'Casi Nuevo', 'Lino');
+
+-- ---------------------- DIMENSIÓN CANAL VENTA ----------------------
+INSERT INTO canal_venta (v_id_plataforma, v_plataforma, v_tipo_atencion) VALUES (1, 'Instagram', 'Asistida por asesor');
+INSERT INTO canal_venta (v_id_plataforma, v_plataforma, v_tipo_atencion) VALUES (2, 'Sitio Web', 'Pagina web');
+INSERT INTO canal_venta (v_id_plataforma, v_plataforma, v_tipo_atencion) VALUES (3, 'Showroom Físico', 'Presencial');
+INSERT INTO canal_venta (v_id_plataforma, v_plataforma, v_tipo_atencion) VALUES (4, 'Whatsapp', 'Asistida por asesor');
+
+-- ---------------------- TABLA DE HECHOS: KARDEX MODA CIRCULAR (30 COMPRAS) ----------------------
+-- Nota: kd_total_pagado es un campo calculado dinámicamente (kd_precio_venta + kd_costo_envio)
+
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5001, 1, 101, 1, TO_DATE('2026-09-01','YYYY-MM-DD'), 120000.00, 12000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5002, 2, 102, 2, TO_DATE('2026-09-03','YYYY-MM-DD'), 85000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5003, 3, 103, 3, TO_DATE('2026-09-05','YYYY-MM-DD'), 180000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5004, 4, 104, 4, TO_DATE('2026-09-08','YYYY-MM-DD'), 95000.00, 10000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5005, 5, 105, 1, TO_DATE('2026-09-10','YYYY-MM-DD'), 60000.00, 12000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5006, 6, 106, 2, TO_DATE('2026-09-12','YYYY-MM-DD'), 110000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5007, 7, 107, 3, TO_DATE('2026-09-15','YYYY-MM-DD'), 75000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5008, 8, 108, 4, TO_DATE('2026-09-18','YYYY-MM-DD'), 210000.00, 15000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5009, 9, 109, 1, TO_DATE('2026-09-20','YYYY-MM-DD'), 135000.00, 12000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5010, 10, 110, 2, TO_DATE('2026-09-22','YYYY-MM-DD'), 70000.00, 10000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5011, 1, 102, 3, TO_DATE('2026-09-25','YYYY-MM-DD'), 88000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5012, 2, 104, 1, TO_DATE('2026-09-28','YYYY-MM-DD'), 92000.00, 12000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5013, 3, 101, 2, TO_DATE('2026-10-01','YYYY-MM-DD'), 125000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5014, 4, 106, 4, TO_DATE('2026-10-03','YYYY-MM-DD'), 105000.00, 10000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5015, 5, 107, 3, TO_DATE('2026-10-05','YYYY-MM-DD'), 80000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5016, 6, 108, 1, TO_DATE('2026-10-08','YYYY-MM-DD'), 195000.00, 15000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5017, 7, 103, 2, TO_DATE('2026-10-10','YYYY-MM-DD'), 175000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5018, 8, 105, 4, TO_DATE('2026-10-12','YYYY-MM-DD'), 65000.00, 10000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5019, 9, 110, 3, TO_DATE('2026-10-15','YYYY-MM-DD'), 72000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5020, 10, 109, 1, TO_DATE('2026-10-18','YYYY-MM-DD'), 140000.00, 12000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5021, 1, 105, 2, TO_DATE('2026-10-20','YYYY-MM-DD'), 58000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5022, 2, 103, 4, TO_DATE('2026-10-22','YYYY-MM-DD'), 185000.00, 12000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5023, 3, 107, 1, TO_DATE('2026-10-25','YYYY-MM-DD'), 78000.00, 10000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5024, 4, 108, 3, TO_DATE('2026-10-28','YYYY-MM-DD'), 200000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5025, 5, 101, 2, TO_DATE('2026-10-30','YYYY-MM-DD'), 118000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5026, 6, 104, 4, TO_DATE('2026-11-01','YYYY-MM-DD'), 90000.00, 10000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5027, 7, 110, 1, TO_DATE('2026-11-03','YYYY-MM-DD'), 68000.00, 12000.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5028, 8, 102, 3, TO_DATE('2026-11-05','YYYY-MM-DD'), 87000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5029, 9, 106, 2, TO_DATE('2026-11-07','YYYY-MM-DD'), 112000.00, 0.00);
+INSERT INTO kardex_moda_circular (kd_id_orden, kd_id_cliente, kd_id_item, kd_id_canal, kd_fecha_pedido, kd_precio_venta, kd_costo_envio) VALUES (5030, 10, 109, 4, TO_DATE('2026-11-09','YYYY-MM-DD'), 130000.00, 10000.00);
+
+-- Sincronizar secuencias de claves automáticas (IDENTITY) al máximo valor manual insertado
+ALTER TABLE dato_cliente MODIFY c_id_cliente GENERATED BY DEFAULT AS IDENTITY (START WITH LIMIT VALUE);
+ALTER TABLE dato_item MODIFY i_id_item GENERATED BY DEFAULT AS IDENTITY (START WITH LIMIT VALUE);
+ALTER TABLE canal_venta MODIFY v_id_plataforma GENERATED BY DEFAULT AS IDENTITY (START WITH LIMIT VALUE);
+ALTER TABLE kardex_moda_circular MODIFY kd_id_orden GENERATED BY DEFAULT AS IDENTITY (START WITH LIMIT VALUE);
+
+COMMIT;
+
+-- Actualizar la tabla de hechos para que cada orden pertenezca a un cliente del 1 al 30
+UPDATE kardex_moda_circular SET kd_id_cliente = 1 WHERE kd_id_orden = 5001;
+UPDATE kardex_moda_circular SET kd_id_cliente = 2 WHERE kd_id_orden = 5002;
+UPDATE kardex_moda_circular SET kd_id_cliente = 3 WHERE kd_id_orden = 5003;
+UPDATE kardex_moda_circular SET kd_id_cliente = 4 WHERE kd_id_orden = 5004;
+UPDATE kardex_moda_circular SET kd_id_cliente = 5 WHERE kd_id_orden = 5005;
+UPDATE kardex_moda_circular SET kd_id_cliente = 6 WHERE kd_id_orden = 5006;
+UPDATE kardex_moda_circular SET kd_id_cliente = 7 WHERE kd_id_orden = 5007;
+UPDATE kardex_moda_circular SET kd_id_cliente = 8 WHERE kd_id_orden = 5008;
+UPDATE kardex_moda_circular SET kd_id_cliente = 9 WHERE kd_id_orden = 5009;
+UPDATE kardex_moda_circular SET kd_id_cliente = 10 WHERE kd_id_orden = 5010;
+UPDATE kardex_moda_circular SET kd_id_cliente = 11 WHERE kd_id_orden = 5011;
+UPDATE kardex_moda_circular SET kd_id_cliente = 12 WHERE kd_id_orden = 5012;
+UPDATE kardex_moda_circular SET kd_id_cliente = 13 WHERE kd_id_orden = 5013;
+UPDATE kardex_moda_circular SET kd_id_cliente = 14 WHERE kd_id_orden = 5014;
+UPDATE kardex_moda_circular SET kd_id_cliente = 15 WHERE kd_id_orden = 5015;
+UPDATE kardex_moda_circular SET kd_id_cliente = 16 WHERE kd_id_orden = 5016;
+UPDATE kardex_moda_circular SET kd_id_cliente = 17 WHERE kd_id_orden = 5017;
+UPDATE kardex_moda_circular SET kd_id_cliente = 18 WHERE kd_id_orden = 5018;
+UPDATE kardex_moda_circular SET kd_id_cliente = 19 WHERE kd_id_orden = 5019;
+UPDATE kardex_moda_circular SET kd_id_cliente = 20 WHERE kd_id_orden = 5020;
+UPDATE kardex_moda_circular SET kd_id_cliente = 21 WHERE kd_id_orden = 5021;
+UPDATE kardex_moda_circular SET kd_id_cliente = 22 WHERE kd_id_orden = 5022;
+UPDATE kardex_moda_circular SET kd_id_cliente = 23 WHERE kd_id_orden = 5023;
+UPDATE kardex_moda_circular SET kd_id_cliente = 24 WHERE kd_id_orden = 5024;
+UPDATE kardex_moda_circular SET kd_id_cliente = 25 WHERE kd_id_orden = 5025;
+UPDATE kardex_moda_circular SET kd_id_cliente = 26 WHERE kd_id_orden = 5026;
+UPDATE kardex_moda_circular SET kd_id_cliente = 27 WHERE kd_id_orden = 5027;
+UPDATE kardex_moda_circular SET kd_id_cliente = 28 WHERE kd_id_orden = 5028;
+UPDATE kardex_moda_circular SET kd_id_cliente = 29 WHERE kd_id_orden = 5029;
+UPDATE kardex_moda_circular SET kd_id_cliente = 30 WHERE kd_id_orden = 5030;
+
+COMMIT;
