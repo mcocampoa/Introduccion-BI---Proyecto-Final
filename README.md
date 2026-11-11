@@ -46,7 +46,7 @@ user = "tu_usuario_oracle"
 password = "tu_password_oracle"
 # Si es local: "localhost:1521/XEPDB1" | Si es Oracle Cloud: el nombre del servicio TNS (ej: "tienda_high")
 dsn = "tu_dsn_o_servicio"
-
+```
 ---
 
 ## Instrucciones para Ejecutar la App
